@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Fishpig_WordPress_Addon_UCE</name>
+    <version>1.4.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://fishpig.co.uk/license.txt">FishPig EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Hide posts from the blog homepage, archive page or feed based on category.</summary>
+    <description>Hide posts from the blog homepage, archive page or feed based on category.</description>
+    <notes>Updated for Magento WordPress Integration version 4.</notes>
+    <authors><author><name>fishpig</name><user>fishpig</user><email>ben@fishpig.co.uk</email></author></authors>
+    <date>2016-08-15</date>
+    <time>14:47:00</time>
+    <contents><target name="magecommunity"><dir name="Fishpig"><dir name="Wordpress"><dir name="Addon"><dir name="UCE"><dir name="Block"><dir name="System"><dir name="Config"><dir name="Form"><dir name="Field"><file name="License.php" hash="274e49e39742daa5da864ebac62af91b"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="License.php" hash="205983ccbb39d8570f8c453549c93f33"/></dir><dir name="Model"><file name="Observer.php" hash="81b339af5fdd80059920907059616eb0"/></dir><dir name="etc"><file name="config.xml" hash="a37c3376e2b86b213339682d5eb51c60"/><file name="system.xml" hash="9dde514d71e15c050094bb456a00ed03"/></dir></dir></dir></dir></dir></target><target name="mageweb"><dir name="app"><dir name="etc"><dir name="modules"><file name="Fishpig_Wordpress_Addon_UCE.xml" hash="fa81c1ada4fdcc89950128acfcde263e"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>8.0.0</max></php></required></dependencies>
+</package>
